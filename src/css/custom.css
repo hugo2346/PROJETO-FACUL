@@ -1,27 +1,41 @@
-body, html {
- font-family: 'Roboto', sans-serif;
-
+body,
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
 #header {
- width: 100%;
- background: transparent;
- transition: background ease-out 0.2s;
-
+    width: 100%;
+    background: transparent;
+    transition: background ease-out 0.2s;
 }
 
 #header .nav-link {
- text-transform: uppercase;
- font-weight: 500;
- padding-left: 0;
- padding-right: 0;
- margin-left: 15PX;
- margin-right: 15px;
- color: #000;
- border-bottom:  solid 4px transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15PX;
+    margin-right: 15px;
+    color: #000;
+    border-bottom: solid 4px transparent;
 }
 
 #header .nav-link:hover {
- border-bottom: solid 4px var(--secondary);
- color: var(--secondary);
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
+}
+
+#slider {
+    background: url(/./assets/background.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
 }
