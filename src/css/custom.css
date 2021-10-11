@@ -39,3 +39,14 @@ html {
     font-size: 18px;
     text-transform: uppercase;
 }
+
+#servicos a.destaque {
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
