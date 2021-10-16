@@ -78,3 +78,31 @@ html {
 #servicos a.destaque .img-container img {
     max-height: 160px;
 }
+
+#clientes a.link-cliente {
+    padding: 0 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 100px;
+    transition: ease-in-out all 0.2s;
+}
+
+#clientes a.link-cliente:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .15);
+}
+
+#clientes a.link-cliente img {
+    filter: grayscale(100%);
+    max-height: 70px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#clientes a.link-cliente:hover img {
+    filter: none;
+    opacity: 1;
+}
