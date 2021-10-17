@@ -3,6 +3,12 @@
         height: 120px;
     }
     #servicos a.destaque .img-container img {
-        height: 120px;
+        max-height: 120px;
+    }
+    #servicos a.destaque .imagem {
+        padding: 10px 0 30px 0;
+    }
+    #servicos .cliente-text .imagem img {
+        max-width: 150px;
     }
 }
