@@ -203,3 +203,32 @@ html {
     color: #000;
     font-weight: 700;
 }
+
+#contato .email {
+    border-radius: 5px;
+    background-color: var(--secondary);
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+}
+
+#contato .email img {
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+
+#contato .email form {
+    width: 60%;
+    display: flex;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+    background: none;
+    color: #fff;
+}
