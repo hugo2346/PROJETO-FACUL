@@ -28,4 +28,17 @@ jQuery(document).ready(function($) {
             filter: "*",
         });
     });
+
+
+    //MAGNIFY
+    $(".grid .popup-link").magnificPopup({
+        type: "image",
+        gallery: {
+            enabled: true,
+            tPrev: "Anterior",
+            tNext: "Proxima",
+            tCounter: "%curr% de %total%",
+        },
+
+    });
 });
