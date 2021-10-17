@@ -106,3 +106,44 @@ html {
     filter: none;
     opacity: 1;
 }
+
+#clientes .cliente-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: var(--light);
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+#clientes .cliente-text .imagem {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+    color: #b4b4b4;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+#clientes .cliente-text .imagem span {
+    color: var(--secondary);
+    font-size: 110px;
+    line-height: 110px;
+    font-weight: 900;
+    display: block;
+}
+
+#clientes .cliente-text .telefone {
+    display: flex;
+    font-size: 14px;
+    color: #b4b4b4;
+}
+
+#clientes .cliente-text .telefone span {
+    font-size: 25px;
+    color: #797979;
+    font-weight: 900;
+    display: block;
+}
