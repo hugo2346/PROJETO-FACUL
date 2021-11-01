@@ -34,12 +34,12 @@ body {
 }
 
 #header .nav-link:hover {
-    border-bottom: solid 4px var(--secondary);
+    border-bottom: solid 4px var(--primary-dark);
     color: var(--secondary);
 }
 
 #slider {
-    background: url(/./assets/background.svg) no-repeat center bottom;
+    background: url(/./assets/25101.svg) no-repeat center bottom;
     background-size: contain;
 }
 
