@@ -94,6 +94,7 @@ body {
     border: solid 1px var(--light);
     height: 100px;
     transition: ease-in-out all 0.2s;
+    border-radius: 10px;
 }
 
 #clientes a.link-cliente:hover {
