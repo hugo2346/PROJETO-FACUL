@@ -46,8 +46,8 @@ jQuery(document).ready(function($) {
         $(".owl-carousel").owlCarousel({
             loop: false,
             margin: 30,
-            autoplay: true,
-            autoplayTimeout: 5000,
+            autoplay: false,
+            autoplayTimeout: 0,
             dots: true,
             lazyLoad: false,
             nav: false,
