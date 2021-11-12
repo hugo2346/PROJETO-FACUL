@@ -195,7 +195,6 @@ body {
 
 #depoimentos .depoimento {
     background-color: var(--light);
-    border-radius: 5px;
     display: flex;
     padding: 30px;
 }
